@@ -15,7 +15,7 @@ function App() {
         <Navbar />
       </GridItem>
       <GridItem area='aside' bg='gold'>Aside</GridItem>
-      <GridItem area='main' bg='skyblue'>
+      <GridItem area='main' bg='#212121'>
         <GameGrid />
       </GridItem>
     </Grid>
