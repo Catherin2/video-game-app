@@ -3,7 +3,7 @@ import apiClient from '../services/api-client';
 import { useEffect, useState } from 'react';
 
 
-export interface Genre {
+interface Genre {
     id: number;
     name: string;
 
