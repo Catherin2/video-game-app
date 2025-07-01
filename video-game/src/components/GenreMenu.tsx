@@ -1,3 +1,4 @@
+import { ListItem, ListRoot } from '@chakra-ui/react';
 import useGenres from '../hooks/useGenres'
 
 
@@ -5,9 +6,9 @@ import useGenres from '../hooks/useGenres'
 const GenreMenu = () => {
   const { data } = useGenres();
   return (
-    <ul>
-      {data.map(genre => <li key={(genre.id)}>{genre.name}</li>)}
-    </ul>
+    <ListRoot>
+      {data.map(genre => <ListItem key={(genre.id)}>{genre.name}</ListItem>)}
+    </ListRoot>
   )
 }
 
