@@ -5,6 +5,8 @@ import GenreMenu from "./components/GenreMenu"
 import { useState } from "react"
 import { Genre } from "./hooks/useGenres"
 
+
+
 function App() {
 
   const [filteredGenre, setFilteredGenre] = useState<Genre | null>(null)
